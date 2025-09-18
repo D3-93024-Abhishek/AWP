@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(73, 71, 71);
+}
+
+
+.col{
+    height: 250px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.col1{
+    height: 250px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.col2{
+    height: 250px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.col3{
+    height: 250px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.col4{
+    height: 250px;
+    width: 100px;
+    background-color: yellowgreen;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.col5{
+    height: 250px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.col6{
+    height: 250px;
+    width: 100px;
+    background-color: pink;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.col7{
+    height: 250px;
+    width: 100px;
+    background-color: burlywood;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+
+
