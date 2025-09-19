@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let val1;
+      let val2;
+      let val3;
+      while (1) {
+        val1 = window.prompt("Enter number1: ");
+        console.log(val1);
+        if (val1 > 0) {
+          break;
+        } else {
+          window.alert("Enter valid number");
+        }
+      }
+
+      while (1) {
+        val2 = window.prompt("Enter number2: ");
+        console.log(val2);
+        if (val2 > 0) {
+          break;
+        } else {
+          window.alert("Enter valid number");
+        }
+      }
+
+      while (1) {
+        val3 = window.prompt("Enter number3: ");
+        console.log(val3);
+        if (val3 > 0) {
+          break;
+        } else {
+          window.alert("Enter valid number");
+        }
+      }
+
+      val1 = parseInt(val1)
+      val2 = parseInt(val2)
+      val3 = parseInt(val3)
+     
+
+      if (val1 > val2 && val1 > val3) {
+        window.alert("The largest element is  " + val1);
+      } else if (val2 > val3) {
+        window.alert("The largest element is  " + val2);
+      } else {
+        window.alert("The largest element is  " + val3);
+      }
+    </script>
+  </body>
+</html>
